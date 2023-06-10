@@ -16,6 +16,8 @@ npm install body-parser@1.19.0 --save
 
 npm install express-validator@6.12.1 --save
 
+npm install cors@2.8.5 --save
+
 
 
 

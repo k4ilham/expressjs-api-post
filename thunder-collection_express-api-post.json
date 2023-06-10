@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "express-api-post",
+    "dateExported": "2023-06-10T17:47:33.770Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "8eb59a11-e32b-43c5-95f0-5aaae41906e3",
+            "colId": "53c5ed18-f9a3-428e-9c8a-2af46bab1db1",
+            "containerId": "",
+            "name": "get",
+            "url": "localhost:3000/api/posts",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-06-10T17:27:25.333Z",
+            "modified": "2023-06-10T17:34:44.504Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "05484c32-b9fd-47a9-b0ce-91717ef3cf58",
+            "colId": "53c5ed18-f9a3-428e-9c8a-2af46bab1db1",
+            "containerId": "",
+            "name": "store",
+            "url": "localhost:3000/api/posts/store",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-06-10T17:37:18.247Z",
+            "modified": "2023-06-10T17:41:08.503Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "    {\n      \"title\": \"sdfdsf\",\n      \"content\": \"dsfds\"\n    }",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "869a5daf-5051-4223-a185-c9fcdd40279f",
+            "colId": "53c5ed18-f9a3-428e-9c8a-2af46bab1db1",
+            "containerId": "",
+            "name": "detail",
+            "url": "localhost:3000/api/posts/6",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-06-10T17:43:13.726Z",
+            "modified": "2023-06-10T17:43:18.056Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "8c184b6d-06dc-4520-97eb-f19112226068",
+            "colId": "53c5ed18-f9a3-428e-9c8a-2af46bab1db1",
+            "containerId": "",
+            "name": "update",
+            "url": "localhost:3000/api/posts/update/6",
+            "method": "PATCH",
+            "sortNum": 40000,
+            "created": "2023-06-10T17:44:13.041Z",
+            "modified": "2023-06-10T17:44:52.426Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "    {\n      \"title\": \"1\",\n      \"content\": \"1\"\n    }",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "677b1530-a9b5-432a-a385-d2eeff9ce35b",
+            "colId": "53c5ed18-f9a3-428e-9c8a-2af46bab1db1",
+            "containerId": "",
+            "name": "delete",
+            "url": "localhost:3000/api/posts/delete/5",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2023-06-10T17:45:37.671Z",
+            "modified": "2023-06-10T17:46:11.510Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
